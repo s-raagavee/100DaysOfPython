@@ -12,7 +12,10 @@ nr_symbols = int(input(f"How many symbols would you like?\n"))
 nr_numbers = int(input(f"How many numbers would you like?\n"))
 
 #Easy Version: Generate the password in sequence. Letters, then symbols, then numbers.
+'''
 password = ""
+
+#run a loop for each category and add to string
 
 for letter in range(0, nr_letters):
     password += letters[random.randint(0, len(letters)-1)]
@@ -23,4 +26,32 @@ for symbol in range(0, nr_symbols):
 for number in range(0, nr_numbers):
     password += numbers[random.randint(0, len(numbers)-1)]
 
+#print password
 print(f"Your password is {password}")
+'''
+
+#Hard Version: n the advanced version of this project the final password does not follow a pattern
+
+password = []
+
+#run a loop for each category and add to list
+
+for letter in range(0, nr_letters):
+    password.append(letters[random.randint(0, len(letters)-1)])
+
+for symbol in range(0, nr_symbols):
+    password.append(symbols[random.randint(0, len(symbols)-1)])
+
+for number in range(0, nr_numbers):
+    password.append(numbers[random.randint(0, len(numbers)-1)])
+
+#randomly shuffle list
+random.shuffle(password)
+
+#print each character of the list into a single string
+str_password = ""
+for item in password:
+    str_password += item
+
+#print sring password
+print(f"Your password is {str_password}")
