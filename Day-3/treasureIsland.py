@@ -1,7 +1,7 @@
 #Task: Create a word based game so users can choose their path to find the treasure.
 
 #print welcome message
-print("Hello Treasure Seeker!\nWelcome to the treasure Island!\nMake good choices to find that treasure!\nGOOD LUCK!\n\n\n")
+print("\nHello Treasure Seeker!\nWelcome to the treasure Island!\nMake good choices to find that treasure!\nGOOD LUCK!\n\n\n")
 
 print("You enter the forest.")
 

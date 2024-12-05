@@ -8,7 +8,7 @@ print("Welcome to the tip calculator!")
 bill = float(input("What was the total bill? $"))
 
 #get percentage of tip user want to give
-tip = int(input("How much tip would you like to give? 10, 12, or 15?"))
+tip = int(input("How much tip would you like to give? 10, 12, or 15? "))
 
 #get how many people to spilt bill with from user
 ppl = int(input("How many people to split the bill? "))
