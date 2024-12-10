@@ -73,7 +73,7 @@ while not game_over:
         
         #game over when user runs out of lives
         if lives == 6:
-            print(f"YOU LOSE!\nYou ran out of lives")
+            print(f"YOU LOSE!\nYou ran out of lives\n The word was {chosen_word}")
             game_over = True
     
     else:
