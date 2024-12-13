@@ -45,3 +45,4 @@ if level == "easy":
 elif level == "hard":
     lives = 5
     play(lives)
+    
