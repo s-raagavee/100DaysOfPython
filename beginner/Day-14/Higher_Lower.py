@@ -83,4 +83,3 @@ while game_on:
         print(art.logo)
         print(f"Sorry, That is wrong. Final Score: {score}")
         game_on = False
-        
