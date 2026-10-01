@@ -30,7 +30,6 @@ while machine_on:
         if coffee_type is not None:
             sufficient = coffee_machine.is_resource_sufficient(coffee_type)
             if sufficient:
-
                 #Try-Except block to print error message if anything other than float entered and asks user to try again
                 try:
                     enough_money = money.make_payment(coffee.menu[coffee.menu.index(coffee_type)].cost)
